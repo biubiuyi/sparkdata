@@ -10,3 +10,5 @@ sparkdata
  
  ---
   markdown文档撰写说明:https://github.com/guodongxiaren/README#readme
+  
+  git使用说明:http://rogerdudler.github.io/git-guide/index.zh.html
