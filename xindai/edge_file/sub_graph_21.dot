@@ -1,0 +1,376 @@
+/* Created by igraph 0.7.1 */
+digraph {
+  0 [
+    label=1
+    name=18081127561
+    roles="[0]"
+    times=1
+  ];
+  1 [
+    label=3
+    name=13982579841
+    roles="[2]"
+    times=1
+  ];
+  2 [
+    label=0
+    name=18328100765
+    roles="[0]"
+    times=1
+  ];
+  3 [
+    label=0
+    name=18708210258
+    roles="[0]"
+    times=1
+  ];
+  4 [
+    label=3
+    name=13688158047
+    roles="[2]"
+    times=1
+  ];
+  5 [
+    label=3
+    name=15808391483
+    roles="[2]"
+    times=1
+  ];
+  6 [
+    label=3
+    name=13086307674
+    roles="[2]"
+    times=1
+  ];
+  7 [
+    label=1
+    name=15282061995
+    roles="[0]"
+    times=1
+  ];
+  8 [
+    label=3
+    name=18583904387
+    roles="[1]"
+    times=7
+  ];
+  9 [
+    label=3
+    name=15378553496
+    roles="[2]"
+    times=1
+  ];
+  10 [
+    label=3
+    name=13708207665
+    roles="[2]"
+    times=1
+  ];
+  11 [
+    label=3
+    name=18783321894
+    roles="[2]"
+    times=1
+  ];
+  12 [
+    label=0
+    name=18382242361
+    roles="[0]"
+    times=1
+  ];
+  13 [
+    label=0
+    name=18483609920
+    roles="[0]"
+    times=1
+  ];
+  14 [
+    label=1
+    name=18382246688
+    roles="[0]"
+    times=1
+  ];
+  15 [
+    label=0
+    name=18382246766
+    roles="[0]"
+    times=1
+  ];
+  16 [
+    label=0
+    name=18382247537
+    roles="[0]"
+    times=1
+  ];
+  17 [
+    label=1
+    name=18280027921
+    roles="[0]"
+    times=1
+  ];
+  18 [
+    label=3
+    name=15283806744
+    roles="[2]"
+    times=1
+  ];
+  19 [
+    label=1
+    name=18108081073
+    roles="[0]"
+    times=1
+  ];
+  20 [
+    label=3
+    name=15984226175
+    roles="[2]"
+    times=1
+  ];
+  21 [
+    label=3
+    name=15283266656
+    roles="[2]"
+    times=1
+  ];
+  22 [
+    label=3
+    name=13541064751
+    roles="[1]"
+    times=3
+  ];
+  23 [
+    label=1
+    name=15828534989
+    roles="[0, 2]"
+    times=2
+  ];
+  24 [
+    label=0
+    name=15708493734
+    roles="[0]"
+    times=1
+  ];
+  25 [
+    label=3
+    name=13981414317
+    roles="[2]"
+    times=1
+  ];
+  26 [
+    label=3
+    name=18280229221
+    roles="[2]"
+    times=1
+  ];
+  27 [
+    label=0
+    name=15378229035
+    roles="[0]"
+    times=1
+  ];
+  28 [
+    label=3
+    name=13550017583
+    roles="[2]"
+    times=1
+  ];
+  29 [
+    label=3
+    name=13551615244
+    roles="[2]"
+    times=1
+  ];
+  30 [
+    label=3
+    name=13795958907
+    roles="[2]"
+    times=1
+  ];
+  31 [
+    label=1
+    name=18483625815
+    roles="[0]"
+    times=1
+  ];
+  32 [
+    label=0
+    name=15181084440
+    roles="[0]"
+    times=1
+  ];
+  33 [
+    label=0
+    name=18328554617
+    roles="[0]"
+    times=1
+  ];
+  34 [
+    label=0
+    name=13679604759
+    roles="[0]"
+    times=1
+  ];
+  35 [
+    label=3
+    name=13857870513
+    roles="[2]"
+    times=1
+  ];
+  36 [
+    label=3
+    name=13890382175
+    roles="[2]"
+    times=1
+  ];
+  37 [
+    label=0
+    name=13882523044
+    roles="[0]"
+    times=1
+  ];
+  38 [
+    label=3
+    name=13890958966
+    roles="[2]"
+    times=1
+  ];
+  39 [
+    label=3
+    name=13982228130
+    roles="[1]"
+    times=10
+  ];
+  40 [
+    label=3
+    name=15908450707
+    roles="[2]"
+    times=1
+  ];
+  41 [
+    label=0
+    name=15808322461
+    roles="[0]"
+    times=1
+  ];
+
+  0 -> 4 [
+    weight=2
+  ];
+  0 -> 39 [
+    weight=1
+  ];
+  2 -> 39 [
+    weight=1
+  ];
+  2 -> 40 [
+    weight=2
+  ];
+  3 -> 8 [
+    weight=1
+  ];
+  3 -> 20 [
+    weight=2
+  ];
+  7 -> 9 [
+    weight=2
+  ];
+  7 -> 39 [
+    weight=1
+  ];
+  12 -> 29 [
+    weight=2
+  ];
+  12 -> 39 [
+    weight=1
+  ];
+  13 -> 8 [
+    weight=1
+  ];
+  13 -> 38 [
+    weight=2
+  ];
+  14 -> 35 [
+    weight=2
+  ];
+  14 -> 39 [
+    weight=1
+  ];
+  15 -> 36 [
+    weight=2
+  ];
+  15 -> 39 [
+    weight=1
+  ];
+  16 -> 6 [
+    weight=2
+  ];
+  16 -> 39 [
+    weight=1
+  ];
+  17 -> 8 [
+    weight=1
+  ];
+  17 -> 26 [
+    weight=2
+  ];
+  19 -> 8 [
+    weight=1
+  ];
+  19 -> 23 [
+    weight=2
+  ];
+  23 -> 10 [
+    weight=2
+  ];
+  23 -> 22 [
+    weight=1
+  ];
+  24 -> 21 [
+    weight=2
+  ];
+  24 -> 22 [
+    weight=1
+  ];
+  27 -> 8 [
+    weight=1
+  ];
+  27 -> 30 [
+    weight=2
+  ];
+  31 -> 8 [
+    weight=1
+  ];
+  31 -> 11 [
+    weight=2
+  ];
+  32 -> 18 [
+    weight=2
+  ];
+  32 -> 22 [
+    weight=1
+  ];
+  33 -> 5 [
+    weight=2
+  ];
+  33 -> 39 [
+    weight=1
+  ];
+  34 -> 8 [
+    weight=1
+  ];
+  34 -> 28 [
+    weight=2
+  ];
+  37 -> 1 [
+    weight=2
+  ];
+  37 -> 39 [
+    weight=1
+  ];
+  41 -> 25 [
+    weight=2
+  ];
+  41 -> 39 [
+    weight=1
+  ];
+}

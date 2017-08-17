@@ -1,0 +1,676 @@
+/* Created by igraph 0.7.1 */
+digraph {
+  0 [
+    label=1
+    name=15939931148
+    roles="[0]"
+    times=1
+  ];
+  1 [
+    label=3
+    name=13399950394
+    roles="[2]"
+    times=1
+  ];
+  2 [
+    label=0
+    name=18608560914
+    roles="[0, 1]"
+    times=3
+  ];
+  3 [
+    label=3
+    name=15180775568
+    roles="[2]"
+    times=1
+  ];
+  4 [
+    label=0
+    name=15775851888
+    roles="[0]"
+    times=1
+  ];
+  5 [
+    label=3
+    name=18682504927
+    roles="[2]"
+    times=1
+  ];
+  6 [
+    label=3
+    name=15133230887
+    roles="[2]"
+    times=1
+  ];
+  7 [
+    label=3
+    name=15617537346
+    roles="[1]"
+    times=3
+  ];
+  8 [
+    label=3
+    name=15517399539
+    roles="[2, 1]"
+    times=2
+  ];
+  9 [
+    label=2
+    name=13290751035
+    roles="[0, 1]"
+    times=3
+  ];
+  10 [
+    label=3
+    name=15981939679
+    roles="[2]"
+    times=1
+  ];
+  11 [
+    label=3
+    name=13258281890
+    roles="[1]"
+    times=9
+  ];
+  12 [
+    label=0
+    name=18085407762
+    roles="[0]"
+    times=1
+  ];
+  13 [
+    label=3
+    name=15123181197
+    roles="[2]"
+    times=1
+  ];
+  14 [
+    label=2
+    name=18637499018
+    roles="[0]"
+    times=1
+  ];
+  15 [
+    label=3
+    name=13984452890
+    roles="[2]"
+    times=1
+  ];
+  16 [
+    label=1
+    name=15136838167
+    roles="[0]"
+    times=1
+  ];
+  17 [
+    label=3
+    name=13551641551
+    roles="[2]"
+    times=1
+  ];
+  18 [
+    label=1
+    name=13550884744
+    roles="[0]"
+    times=1
+  ];
+  19 [
+    label=3
+    name=15806082750
+    roles="[2]"
+    times=1
+  ];
+  20 [
+    label=3
+    name=15994076174
+    roles="[2, 1]"
+    times=3
+  ];
+  21 [
+    label=3
+    name=15023621240
+    roles="[2]"
+    times=1
+  ];
+  22 [
+    label=3
+    name=15537426733
+    roles="[2]"
+    times=1
+  ];
+  23 [
+    label=3
+    name=15328238659
+    roles="[2]"
+    times=1
+  ];
+  24 [
+    label=0
+    name=18683163276
+    roles="[0]"
+    times=1
+  ];
+  25 [
+    label=2
+    name=15285263216
+    roles="[0]"
+    times=1
+  ];
+  26 [
+    label=0
+    name=18685567690
+    roles="[0, 3, 1]"
+    times=3
+  ];
+  27 [
+    label=3
+    name=15828449543
+    roles="[2]"
+    times=1
+  ];
+  28 [
+    label=0
+    name=18780717602
+    roles="[0]"
+    times=1
+  ];
+  29 [
+    label=1
+    name=18709941164
+    roles="[0]"
+    times=1
+  ];
+  30 [
+    label=1
+    name=18108063995
+    roles="[0]"
+    times=1
+  ];
+  31 [
+    label=3
+    name=13434042387
+    roles="[2]"
+    times=1
+  ];
+  32 [
+    label=0
+    name=18785886163
+    roles="[0]"
+    times=2
+  ];
+  33 [
+    label=3
+    name=15285378384
+    roles="[1]"
+    times=2
+  ];
+  34 [
+    label=3
+    name=18184111157
+    roles="[1]"
+    times=1
+  ];
+  35 [
+    label=3
+    name=13782290246
+    roles="[1]"
+    times=1
+  ];
+  36 [
+    label=3
+    name=18380210737
+    roles="[1]"
+    times=9
+  ];
+  37 [
+    label=3
+    name=18281127037
+    roles="[2]"
+    times=1
+  ];
+  38 [
+    label=3
+    name=15082673063
+    roles="[2]"
+    times=1
+  ];
+  39 [
+    label=0
+    name=18384115250
+    roles="[0]"
+    times=1
+  ];
+  40 [
+    label=0
+    name=18227662022
+    roles="[0]"
+    times=1
+  ];
+  41 [
+    label=3
+    name=13323999404
+    roles="[2]"
+    times=1
+  ];
+  42 [
+    label=3
+    name=18385778253
+    roles="[1]"
+    times=1
+  ];
+  43 [
+    label=0
+    name=15984274728
+    roles="[0]"
+    times=1
+  ];
+  44 [
+    label=0
+    name=18683056071
+    roles="[0]"
+    times=1
+  ];
+  45 [
+    label=3
+    name=13409358903
+    roles="[1]"
+    times=1
+  ];
+  46 [
+    label=1
+    name=13137417802
+    roles="[0]"
+    times=2
+  ];
+  47 [
+    label=0
+    name=15520833999
+    roles="[0]"
+    times=1
+  ];
+  48 [
+    label=0
+    name=15680750610
+    roles="[0]"
+    times=1
+  ];
+  49 [
+    label=3
+    name=18338416608
+    roles="[2]"
+    times=1
+  ];
+  50 [
+    label=0
+    name=18048445867
+    roles="[0]"
+    times=1
+  ];
+  51 [
+    label=3
+    name=15085178599
+    roles="[2]"
+    times=1
+  ];
+  52 [
+    label=3
+    name=18285446214
+    roles="[2]"
+    times=1
+  ];
+  53 [
+    label=1
+    name=18317428118
+    roles="[0]"
+    times=1
+  ];
+  54 [
+    label=0
+    name=18483632779
+    roles="[0]"
+    times=1
+  ];
+  55 [
+    label=3
+    name=13795976846
+    roles="[2]"
+    times=1
+  ];
+  56 [
+    label=0
+    name=15085209900
+    roles="[0]"
+    times=1
+  ];
+  57 [
+    label=3
+    name=13550901263
+    roles="[2]"
+    times=1
+  ];
+  58 [
+    label=3
+    name=15729604808
+    roles="[2]"
+    times=1
+  ];
+  59 [
+    label=3
+    name=15121411351
+    roles="[2]"
+    times=1
+  ];
+  60 [
+    label=1
+    name=13703823025
+    roles="[0]"
+    times=1
+  ];
+  61 [
+    label=3
+    name=13890910720
+    roles="[2]"
+    times=1
+  ];
+  62 [
+    label=3
+    name=13733626203
+    roles="[2]"
+    times=1
+  ];
+  63 [
+    label=0
+    name=18385634320
+    roles="[0]"
+    times=1
+  ];
+  64 [
+    label=3
+    name=18385639378
+    roles="[3, 1]"
+    times=2
+  ];
+  65 [
+    label=0
+    name=18302810168
+    roles="[0]"
+    times=1
+  ];
+  66 [
+    label=1
+    name=18783041606
+    roles="[0]"
+    times=1
+  ];
+  67 [
+    label=3
+    name=13603174560
+    roles="[2]"
+    times=1
+  ];
+  68 [
+    label=1
+    name=15893719945
+    roles="[0]"
+    times=1
+  ];
+  69 [
+    label=0
+    name=15680863744
+    roles="[0]"
+    times=1
+  ];
+  70 [
+    label=3
+    name=13982705912
+    roles="[2]"
+    times=1
+  ];
+  71 [
+    label=3
+    name=13158658489
+    roles="[2]"
+    times=1
+  ];
+  72 [
+    label=3
+    name=13458293319
+    roles="[2]"
+    times=1
+  ];
+  73 [
+    label=0
+    name=15520452964
+    roles="[0]"
+    times=1
+  ];
+  74 [
+    label=3
+    name=18780478986
+    roles="[2]"
+    times=1
+  ];
+  75 [
+    label=3
+    name=15603853298
+    roles="[2]"
+    times=1
+  ];
+
+  0 -> 8 [
+    weight=2
+  ];
+  0 -> 35 [
+    weight=1
+  ];
+  2 -> 23 [
+    weight=2
+  ];
+  2 -> 34 [
+    weight=1
+  ];
+  4 -> 11 [
+    weight=1
+  ];
+  4 -> 31 [
+    weight=2
+  ];
+  9 -> 7 [
+    weight=1
+  ];
+  9 -> 75 [
+    weight=2
+  ];
+  12 -> 33 [
+    weight=1
+  ];
+  12 -> 52 [
+    weight=2
+  ];
+  14 -> 9 [
+    weight=1
+  ];
+  14 -> 20 [
+    weight=2
+  ];
+  16 -> 8 [
+    weight=1
+  ];
+  16 -> 20 [
+    weight=2
+  ];
+  18 -> 11 [
+    weight=1
+  ];
+  18 -> 70 [
+    weight=2
+  ];
+  24 -> 11 [
+    weight=1
+  ];
+  24 -> 61 [
+    weight=2
+  ];
+  25 -> 2 [
+    weight=1
+  ];
+  25 -> 26 [
+    weight=3
+  ];
+  25 -> 59 [
+    weight=2
+  ];
+  26 -> 15 [
+    weight=2
+  ];
+  26 -> 42 [
+    weight=1
+  ];
+  28 -> 11 [
+    weight=1
+  ];
+  28 -> 72 [
+    weight=2
+  ];
+  29 -> 1 [
+    weight=2
+  ];
+  29 -> 36 [
+    weight=1
+  ];
+  30 -> 11 [
+    weight=1
+  ];
+  30 -> 21 [
+    weight=2
+  ];
+  32 -> 3 [
+    weight=2
+  ];
+  32 -> 33 [
+    weight=1
+  ];
+  32 -> 51 [
+    weight=2
+  ];
+  32 -> 64 [
+    weight=1
+  ];
+  39 -> 27 [
+    weight=2
+  ];
+  39 -> 36 [
+    weight=1
+  ];
+  40 -> 36 [
+    weight=1
+  ];
+  40 -> 67 [
+    weight=2
+  ];
+  43 -> 13 [
+    weight=2
+  ];
+  43 -> 36 [
+    weight=1
+  ];
+  44 -> 11 [
+    weight=1
+  ];
+  44 -> 55 [
+    weight=2
+  ];
+  46 -> 7 [
+    weight=1
+  ];
+  46 -> 22 [
+    weight=2
+  ];
+  46 -> 45 [
+    weight=1
+  ];
+  46 -> 49 [
+    weight=2
+  ];
+  47 -> 36 [
+    weight=1
+  ];
+  47 -> 38 [
+    weight=2
+  ];
+  48 -> 17 [
+    weight=2
+  ];
+  48 -> 36 [
+    weight=1
+  ];
+  50 -> 5 [
+    weight=2
+  ];
+  50 -> 36 [
+    weight=1
+  ];
+  53 -> 20 [
+    weight=1
+  ];
+  53 -> 62 [
+    weight=2
+  ];
+  54 -> 36 [
+    weight=1
+  ];
+  54 -> 74 [
+    weight=2
+  ];
+  56 -> 6 [
+    weight=2
+  ];
+  56 -> 26 [
+    weight=1
+  ];
+  60 -> 9 [
+    weight=1
+  ];
+  60 -> 10 [
+    weight=2
+  ];
+  63 -> 2 [
+    weight=1
+  ];
+  63 -> 19 [
+    weight=2
+  ];
+  63 -> 64 [
+    weight=3
+  ];
+  65 -> 11 [
+    weight=1
+  ];
+  65 -> 57 [
+    weight=2
+  ];
+  66 -> 11 [
+    weight=1
+  ];
+  66 -> 37 [
+    weight=2
+  ];
+  68 -> 7 [
+    weight=1
+  ];
+  68 -> 41 [
+    weight=2
+  ];
+  69 -> 11 [
+    weight=1
+  ];
+  69 -> 71 [
+    weight=2
+  ];
+  73 -> 36 [
+    weight=1
+  ];
+  73 -> 58 [
+    weight=2
+  ];
+}
