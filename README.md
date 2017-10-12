@@ -15,9 +15,10 @@ sparkdata
   git版本回退：http://www.cnblogs.com/cposture/p/git.html
 ---
 更新本地文件到github已有库（本地已有git库）：
-如果还没有克隆现有仓库，并欲将现有本地git仓库连接到某个远程服务器，可以使用如下命令添加：
-git remote add origin <server>
-如此就能够将本地库改动推送到所添加的服务器上去
+ 如果还没有克隆现有仓库，并欲将现有本地git仓库连接到某个远程服务器，可以使用如下命令添加：
+ git remote add origin <server>
+ 如此就能够将本地库改动推送到所添加的服务器上去
+
 
 如果以及连接好远端库，执行更新与合并操作：
 1. git pull ；将远端的代码拉到本地，先同步远端库代码
