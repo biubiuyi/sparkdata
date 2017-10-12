@@ -1,0 +1,80 @@
+import networkx as nx
+import os
+import time
+
+
+start = time.time()
+#file load
+dataFolder = '/home/lt/weibo_analysis/t_base_weibo_user_fri_part000'
+resultFolder = '/home/lt/weibo_analysis/data_out'
+if not os.path.exists(resultFolder):
+    os.makedirs(resultFolder)
+    
+#ctreate directed graph
+G = nx.DiGraph()
+
+#add edges
+data_file = open(dataFolder,'r')
+count =0
+for line in data_file:
+    org_vertic =line.split('\001')[0].strip()
+    dit_vertics = line.split('\001')[1].strip().split(',')
+    org_vertics = [org_vertic]*len(dit_vertics)
+    
+    G.add_edges_from(zip(org_vertics,dit_vertics))
+    
+print 'number of edegs:%d' % G.number_of_edges()
+print 'number of nodes:%d' % G.number_of_nodes()
+
+
+#count Pangrank
+start = time.time()
+pr_graph = nx.pagerank(G,alpha=0.9)
+print time.time()-start
+
+#output pagerank value of nodes
+# out_file = open(resultFolder+'/pageRank_nodes.txt','w')
+out_file = open(os.path.join(resultFolder,'pageRank_nodes.txt'),'w')
+for node, pr_value in pr_graph.iteritems():
+    out_file.write(str(node)+'\001'+str(pr_value)+'\n')
+out_file.close()
+
+print ('done! %s' %str(time.time()-start))
+
+from graphlab import SGraph,Edge
+import graphlab as gl
+import csv
+
+start = time.time()
+#file load
+dataFolder = '/home/lt/weibo_analysis/'
+resultFolder = '/home/lt/weibo_analysis/data_out'
+if not os.path.exists(resultFolder):
+    os.makedirs(resultFolder)
+    
+#trisData 
+csvData = csv.writer(open(os.path.join(dataFolder,'t_base_weibo_user_fri_part000.csv'),'w'),delimiter = '\t')
+data_file = open(dataFolder,'r')
+for line in data_file:
+    org_vertic =line.split('\001')[0].strip()
+    dit_vertics = line.split('\001')[1].split(',')
+    for dst_vertic in dit_vertics:
+        csvData.writerow([int(org_vertic),int(dst_vertic.strip())]) 
+
+
+#read data
+edgeData = gl.SFrame.read_csv('/home/lt/weibo_analysis/t_base_weibo_user_fri_part000.csv',header=False,delimiter = '\t')
+edgeData.rename({'X1':'src','X2':'dst'})
+
+#create graph
+G = SGraph()
+G = G.add_edges(edges=edgeData,src_field='src',dst_field='dst')
+print G.summary()
+
+#count pagerank value
+pagerank_v = gl.pagerank.create(G, verbose=False)
+print pagerank_v
+
+
+from graphlab import SGraph,Edge
+import graphlab as gl
